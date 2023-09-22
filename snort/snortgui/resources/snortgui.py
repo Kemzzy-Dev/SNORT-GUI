@@ -17,7 +17,7 @@ try:
                 i=0
                 # create the main window
                 root = tk.Tk()
-                root.title('SNORT IDS GUI - w/❤ by WhiteHatCyberus')
+                root.title('INTRUSION DETECTION')
                 root.geometry('1200x650+1+1')
                 root.resizable(False, False)
 
@@ -27,7 +27,7 @@ try:
 
                 # load and display the background image
 
-                img = Image.open('.resources/info/images/snort.jpg')
+                img = Image.open('.resources/info/images/background.png')
                 img = img.resize((1200, 650), Image.ANTIALIAS)
                 img = ImageTk.PhotoImage(img)
                 canvas.create_image(0, 0, image=img, anchor=tk.NW)
